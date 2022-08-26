@@ -3139,7 +3139,7 @@
     .site-footer-item-20 {
         display: flex;
         align-items: flex-start;
-        gap: 150px;
+        gap: 110px;
     }
 
     .nodirr {
@@ -5397,4 +5397,44 @@
     .another{
         display: flex;
     } */
+}
+
+@media (min-width:481px) and (max-width:1001px){
+    .site-nav{
+        display: none;
+    }
+}
+@media (min-width:481px) and (max-width:760px){
+    .toggle{
+        display: none;
+    }
+    .first-part{
+        max-width: 450px;
+        width: 100%;
+    }
+    .ancer-part{
+        max-width: 300px;
+        width: 100%;
+        gap: 10px;
+    }
+    .tht{
+        max-width: 450px;
+        width: 100%;
+    }
+    .number__tepa-qism{
+        max-width: 160px;
+        width: 100%;
+    }
+    .number__tepa-qism h5{
+        padding-left: 0px;
+    }
+}
+@media (min-width:769px) and (max-width:980px){
+    .toggle{
+        display: none;
+    }
+    .tht{
+        max-width: 740px;
+        width: 100%;
+    }
 }

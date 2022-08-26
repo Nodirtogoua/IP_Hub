@@ -7367,3 +7367,119 @@
 
 
 }
+
+@media (max-width:320px) {
+
+    .wadow {
+        max-width: 50px;
+        width: 100%;
+        height: 100px;
+        margin-left: 150px;
+        margin-top: -120px;
+    }
+}
+@media (min-width:361px) and (max-width:465px) {
+
+    .wadow {
+        max-width: 50px;
+        width: 100%;
+        height: 100px;
+        margin-left: 150px;
+        margin-top: -120px;
+    }
+
+    .pre-footer__white {
+        position: absolute;
+        max-width: 300px;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 15px;
+        height: 90px;
+        border-radius: 50%;
+        transition: all 0.6s;
+    }
+
+    .pre-footer__black-elipse {
+        display: flex;
+        justify-content: center;
+        max-width: 299px;
+        width: 100%;
+        height: 91px;
+        border-radius: 50%;
+        z-index: 1000;
+        margin: 25px auto auto auto;
+        background-color: #000;
+    }
+
+    .pre-footer__black-elipse h2 {
+        cursor: pointer;
+        padding-top: 24px;
+        font-family: Montserrat;
+        font-size: 14px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+    }
+}
+@media (min-width:481px) and (max-width:640px){
+
+    .sect-two{
+        display: none;
+    }
+    .ovals{
+        max-width: 420px;
+        width: 100%;
+    }
+    .wadow {
+        max-width: 50px;
+        width: 100%;
+        height: 100px;
+        margin-left: 300px;
+        margin-top: -120px;
+    }
+    .tht{
+        max-width: 420px;
+        width: 100%;
+    }
+    .rounds{
+        max-width: 100px;
+        width: 100%;
+    }
+    .arw{
+        margin-left: 10px;
+    }
+    .site-footer-item-20{
+        display: flex;
+        gap: 100px;
+    }
+    .number__tepa-qism h5{
+        padding-left: 0;
+    }
+}
+.gradient-numbers{
+    height: auto;
+}
+@media (min-width:641px) and (max-width:725px){
+
+    .wadow {
+        max-width: 50px;
+        width: 100%;
+        height: 100px;
+        margin-left: 450px;
+        margin-top: -120px;
+    }
+}
+@media (min-width:769px) and (max-width:970px){
+
+    .wadow {
+        max-width: 50px;
+        width: 100%;
+        height: 100px;
+        margin-left: 600px;
+        margin-top: -120px;
+    }
+}
